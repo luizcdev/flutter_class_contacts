@@ -1,5 +1,5 @@
 import 'package:sqflite/sqflite.dart';
-import 'package:path/path.dart'
+import 'package:path/path.dart';
 
 final String contactTable = "contactTable";
 final String idColumn = "idColumn";
@@ -105,6 +105,8 @@ class Contact {
   String email;
   String phone;
   String img;
+
+  Contact();
 
   Contact.fromMap(Map map){
 
